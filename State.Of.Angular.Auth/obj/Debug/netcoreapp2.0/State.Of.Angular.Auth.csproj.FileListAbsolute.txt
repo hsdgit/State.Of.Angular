@@ -1,0 +1,11 @@
+D:\Working\git\State.Of.Angular\State.Of.Angular.Auth\bin\Debug\netcoreapp2.0\State.Of.Angular.Auth.deps.json
+D:\Working\git\State.Of.Angular\State.Of.Angular.Auth\bin\Debug\netcoreapp2.0\State.Of.Angular.Auth.runtimeconfig.json
+D:\Working\git\State.Of.Angular\State.Of.Angular.Auth\bin\Debug\netcoreapp2.0\State.Of.Angular.Auth.runtimeconfig.dev.json
+D:\Working\git\State.Of.Angular\State.Of.Angular.Auth\bin\Debug\netcoreapp2.0\State.Of.Angular.Auth.dll
+D:\Working\git\State.Of.Angular\State.Of.Angular.Auth\bin\Debug\netcoreapp2.0\State.Of.Angular.Auth.pdb
+D:\Working\git\State.Of.Angular\State.Of.Angular.Auth\obj\Debug\netcoreapp2.0\State.Of.Angular.Auth.csprojResolveAssemblyReference.cache
+D:\Working\git\State.Of.Angular\State.Of.Angular.Auth\obj\Debug\netcoreapp2.0\State.Of.Angular.Auth.csproj.CoreCompileInputs.cache
+D:\Working\git\State.Of.Angular\State.Of.Angular.Auth\obj\Debug\netcoreapp2.0\State.Of.Angular.Auth.AssemblyInfoInputs.cache
+D:\Working\git\State.Of.Angular\State.Of.Angular.Auth\obj\Debug\netcoreapp2.0\State.Of.Angular.Auth.AssemblyInfo.cs
+D:\Working\git\State.Of.Angular\State.Of.Angular.Auth\obj\Debug\netcoreapp2.0\State.Of.Angular.Auth.dll
+D:\Working\git\State.Of.Angular\State.Of.Angular.Auth\obj\Debug\netcoreapp2.0\State.Of.Angular.Auth.pdb
