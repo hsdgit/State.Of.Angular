@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Commands - https://ngxs.gitbook.io/ngxs/getting-started/installation
+
+yarn add @ngxs/store
+
+    ng g module new-module to create a new module
+    call ng g component new-module/new-component
+
+ERROR in node_modules/@ngxs/store/src/of-action.d.ts(1,10): error TS2305: Module '"C:/Projects/ngxsapp/node_modules/rxjs/Rx"' has no exported member 'OperatorFunction'.
+
+package.json - "rxjs": "^5.6.0-forward-compat.3",

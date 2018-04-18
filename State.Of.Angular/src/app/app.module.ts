@@ -1,18 +1,24 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgxsModule } from '@ngxs/store';
 
+import { AppRouting } from './app.routing';
+import { AppComponent } from './components/app/app.component';
+import { HomeModule } from './components/home/home.module';
+import { NotfoundModule } from './notfound/notfound.module';
 
-import { AppComponent } from './app.component';
-
-
+// https://github.com/ngxs/store
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgxsModule.forRoot([]),
+    AppRouting,
+    HomeModule,
+    NotfoundModule
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
