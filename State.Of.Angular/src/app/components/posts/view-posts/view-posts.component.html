@@ -1,0 +1,10 @@
+<div *ngIf="(loading$ | async) === false">
+  <ul>
+    <li *ngFor="let p of posts$ | async">
+      {{p.title}}
+    </li>
+  </ul>
+</div>
+<div *ngIf="(loading$ | async) === true">
+  Loading.....
+</div>

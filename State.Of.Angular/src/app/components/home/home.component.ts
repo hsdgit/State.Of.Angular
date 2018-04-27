@@ -4,8 +4,8 @@ import { Select, Store } from '@ngxs/store';
 import { Observable } from 'rxjs/Observable';
 import { Subscription } from 'rxjs/Subscription';
 
-import { DecrementCount, IncrementCount } from './home.actions';
-import { HomeState, HomeStateModel } from './home.store';
+import { DecrementCount, IncrementCount } from '../shared/home/home.actions';
+import { HomeState, HomeStateModel } from '../shared/home/home.store';
 
 // tslint:disable-next-line:import-blacklist
 @Component({
@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   state: HomeStateModel;
   storeSub: Subscription;
 
-  constructor(private store: Store, private chr: ChangeDetectorRef) {}
+  constructor(private store: Store, private chr: ChangeDetectorRef) { }
 
   ngOnInit() {
     this.storeSub = this.count$.subscribe((state: HomeStateModel) => {
