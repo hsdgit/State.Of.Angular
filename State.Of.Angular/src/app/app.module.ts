@@ -6,7 +6,7 @@ import { AppRouting } from './app.routing';
 import { AppComponent } from './components/app/app.component';
 import { HomeModule } from './components/home/home.module';
 import { HomeState } from './components/home/home.store';
-import { NotfoundModule } from './notfound/notfound.module';
+import { NotfoundModule } from './components/notfound/notfound.module';
 
 // https://github.com/ngxs/store
 @NgModule({
@@ -22,4 +22,4 @@ import { NotfoundModule } from './notfound/notfound.module';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
