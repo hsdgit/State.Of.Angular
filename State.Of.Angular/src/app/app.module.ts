@@ -1,6 +1,8 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RouterModule } from '@angular/router';
 import { NgxsModule } from '@ngxs/store';
 
 import { AppRouting } from './app.routing';
@@ -17,6 +19,8 @@ import { PostState } from './components/shared/posts/post.store';
   declarations: [AppComponent],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    RouterModule,
     HttpClientModule,
     NgxsModule.forRoot([HomeState, PostState]),
     AppRouting,

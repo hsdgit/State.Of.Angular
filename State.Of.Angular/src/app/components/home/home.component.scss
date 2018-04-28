@@ -1,0 +1,25 @@
+.slidingVertical {
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  background: #f00;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  font-size: 2em;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.middleDiv {
+  width: 100px;
+  height: 100px;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
