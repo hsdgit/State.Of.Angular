@@ -32,7 +32,7 @@ export class PostState {
   }
 
   @Action(FetchPosts)
-  incrementCount({ getState, setState }: StateContext<PostStateModel>) {
+  getPosts({ getState, setState }: StateContext<PostStateModel>) {
     const state = getState();
     let posts: Post[] = [];
     this.http.get<Post[]>('https://jsonplaceholder.typicode.com/posts').subscribe(post => {

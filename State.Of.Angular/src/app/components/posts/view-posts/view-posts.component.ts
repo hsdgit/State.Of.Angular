@@ -1,8 +1,8 @@
+import { Observable } from 'rxjs/Observable';
+
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Select, Store } from '@ngxs/store';
-
-import { Observable } from 'rxjs/Observable';
 
 import { FetchPosts } from '../../shared/posts/post.actions';
 import { PostState } from '../../shared/posts/post.store';
