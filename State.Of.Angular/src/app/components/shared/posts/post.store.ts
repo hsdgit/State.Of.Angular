@@ -1,6 +1,7 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Action, Selector, State, StateContext } from '@ngxs/store';
 
+import { Post } from '../models/Post';
 import { FetchPosts } from './post.actions';
 
 export interface PostStateModel {
